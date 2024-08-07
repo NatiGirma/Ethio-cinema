@@ -50,7 +50,7 @@ p {
   padding-bottom: 3rem;
 }
 .text-yellow {
-  color: var(--color-red);
+  color: var(--color-secondary);
 }
 
 /* links */
@@ -66,9 +66,34 @@ a:hover {
   color: var(--color-last);
 }
 
+/* icon */
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-container {
+  background: #fcf9fa;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* grid */
+
+.grid {
+  display: grid;
+}
+
 @media (min-width: 768px) {
   .news-imput {
     width: 50%;
+  }
+  .grid--1x2 {
+    grid-template-columns: 1fr 1fr;
   }
 }
 .col-md:hover {

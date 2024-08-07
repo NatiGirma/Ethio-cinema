@@ -4,6 +4,12 @@
   --color-third: #c3c8ce;
   --color-yellow: #ffc107;
   --color-last: #e8edf2;
+  --color-red: #dc3545;
+}
+
+body {
+  padding-top: 0px;
+  line-height: 1.5;
 }
 
 h1 {
@@ -20,11 +26,6 @@ h2 {
 h3 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-}
-
-body {
-  padding-top: 0px;
-  line-height: 1.5;
 }
 
 p {
@@ -49,7 +50,20 @@ p {
   padding-bottom: 3rem;
 }
 .text-yellow {
-  color: var(--color-third);
+  color: var(--color-red);
+}
+
+/* links */
+
+a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--color-last);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--color-last);
 }
 
 @media (min-width: 768px) {
@@ -76,5 +90,9 @@ p {
 
   h3 {
     font-size: 2.4rem;
+  }
+
+  a {
+    font-size: 1.5rem;
   }
 }

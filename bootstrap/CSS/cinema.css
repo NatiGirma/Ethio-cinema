@@ -6,6 +6,52 @@
   --color-last: #e8edf2;
 }
 
+h1 {
+  font-size: 7rem;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+body {
+  padding-top: 0px;
+  line-height: 1.5;
+}
+
+p {
+  margin-top: 0;
+}
+
+#results {
+  margin-top: 20px;
+}
+#map {
+  height: 400px;
+  margin-top: 20px;
+}
+.movie-trailer {
+  width: 100%;
+  height: 315px;
+  margin-top: 0;
+}
+
+/* hero */
+.hero > div {
+  padding-bottom: 3rem;
+}
+.text-yellow {
+  color: var(--color-third);
+}
+
 @media (min-width: 768px) {
   .news-imput {
     width: 50%;
@@ -17,4 +63,18 @@
 .container {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 8rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
 }

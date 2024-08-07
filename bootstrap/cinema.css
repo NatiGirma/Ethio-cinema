@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #212529;
+  --color-secondary: #495057;
+  --color-third: #c3c8ce;
+  --color-yellow: #ffc107;
+  --color-last: #e8edf2;
+}
+
+@media (min-width: 768px) {
+  .news-imput {
+    width: 50%;
+  }
+}
+.col-md:hover {
+  transform: translateY(-40px);
+}
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -14,7 +14,7 @@
 <body>
     <!----- show  case  ----->
     <section class="nav_bar">
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-4">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-4 collapsible">
             <div class="container">
                 <a href="#" class="navbar-brand">Ethio cinema</a>
                 <button
@@ -26,14 +26,14 @@
             <spam class="navbar-toggler-icon"></spam>
             </button>
             <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
+                <ul class="navbar-nav ms-auto nav__list collapsible__content">
+                    <li class="nav-item nav__item">
                         <a href="#home page" class="nav-link">home page</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav__item">
                         <a href="#service" class="nav-link">service</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav__item">
                         <a href="#location" class="nav-link">location</a>
                     </li>
                 </ul>
@@ -43,18 +43,18 @@
     </section>
     <!-----  show case  ---------->
     <section class="bg-dark text-light   text-center text-sm-start hero ">
-        <div class="container">
-            <div class="d-sm-flex align-items-center justify-content-between grid grid--1x2">
+        <header class="container block-header">
+            <div class="d-sm-flex align-items-center justify-content-between grid grid--1x2 hero--container">
                 <div>
                     <h1>Ethio Cinema<span class="text-yellow"> All In One</span></h1>
                     <p class="lead my-4">
                         Discover the vibrant world of Ethiopian cinema with our interactive platform, where you can easily find local theaters, explore movie showtimes, and connect with cinema owners to enhance your cinematic experience!
                     </p>
                     <button class="btn-danger btn-lg"><a href="#">start the enrolement</a></button>
-             </div>
-                <div><img class="img-fluid w-50 d-none d-sm-block" src="/bootstrap/Images/cinma.jpg"></div>
+             </div class="hero--image">
+                <img class="img-fluid w-50 d-none d-sm-block" src="/bootstrap/Images/cinma.jpg">
             </div>
-        </div>
+        </header>
         </section>
   <!----  Boxes  -->
   <section class="p-5">
@@ -250,5 +250,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="/bootstrap/JS/cinema.js"></script>
+    <script src="/bootstrap/JS/main.js"></script>
 </body>
 </html>

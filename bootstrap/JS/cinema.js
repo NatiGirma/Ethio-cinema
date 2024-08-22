@@ -25,9 +25,10 @@ const cinemas = [
     longitude: 38.7694,
     movies: [
       {
-        title: "Ewket",
-        trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        image: "ewket.jpg",
+        title: "Doka",
+        trailer:
+          "https://youtu.be/dQw4w9WgXcQ?si=QuQ8RdV5YERlU4xQhttps://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        image: "/bootstrap/Images/DOka 2.webp",
       },
       {
         title: "Teza",
